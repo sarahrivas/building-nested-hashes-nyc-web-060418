@@ -21,8 +21,17 @@ def bonus
   }
 
   #code your solution here:
-
+epic_tragedy[:montague][:hero].collect do |status, value|
+  if status == "status"
+  value = "dead"
+  end
+end
   
+epic_tragedy[:capulet][:heroine].collect do |status, value|
+  if status == "status"
+  value = "dead"
+  end
+end
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
   epic_tragedy
