@@ -21,13 +21,13 @@ def bonus
   }
 
   #code your solution here:
-epic_tragedy[:montague][:hero].collect do |status, value|
+epic_tragedy[:montague][:hero].collect do |key, value|
   if status == "status"
   value = "dead"
   end
 end
   
-epic_tragedy[:capulet][:heroine].collect do |status, value|
+epic_tragedy[:capulet][:heroine].collect do |key, value|
   if status == "status"
   value = "dead"
   end
